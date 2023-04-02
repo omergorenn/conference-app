@@ -13,7 +13,7 @@ Access the application at http://localhost:5000.
 
 
 ## Usage
-The application allows you to manage sessions and speakers for a conference. You can perform the following operations:
+The application allows you to manage sessions and speakers for a conference. You can perform the following operations in the api usage:
 
 ## Sessions
 View all sessions
@@ -54,7 +54,7 @@ Delete a speaker by ID
 | `id`      | `integer` |Returns a single speaker with the specified ID |
 
   ```http
-    POST /speakers
+  POST /speakers
   Example: POST http://localhost:5000/speakers
 ```
 
